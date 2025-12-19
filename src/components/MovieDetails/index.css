@@ -1,0 +1,73 @@
+.movie-details-page {
+  padding: 16px;
+}
+
+.details {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: 16px;
+  align-items: start;
+  background: #121212;
+  border: 1px solid #222;
+  border-radius: 10px;
+  padding: 12px;
+  margin-bottom: 20px;
+}
+
+.details__poster {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.details__info {
+  color: #ddd;
+}
+
+.details__info h3 {
+  color: #fff;
+  margin-bottom: 8px;
+}
+
+.details__info p {
+  margin: 4px 0;
+}
+
+.cast-grid {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+}
+
+.cast-card {
+  background: #121212;
+  border: 1px solid #222;
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.cast-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.cast-card__info {
+  padding: 8px;
+}
+
+.cast-card__name {
+  color: #fff;
+  font-weight: 600;
+}
+
+.cast-card__character {
+  color: #bbb;
+  font-size: 14px;
+}
+
+.loader {
+  color: #ddd;
+  text-align: center;
+  padding: 20px;
+}
