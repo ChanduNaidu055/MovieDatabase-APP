@@ -13,9 +13,12 @@ class Pagination extends Component {
         >
           Prev
         </button>
-        <span>
+        <p className="pagination__page-number">{page}</p>
+
+        {/* <span className="page-numbers">
           Page {page} of {totalPages}
-        </span>
+        </span> */}
+
         <button
           type="button"
           disabled={page >= totalPages}

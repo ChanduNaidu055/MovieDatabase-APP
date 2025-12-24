@@ -3,9 +3,10 @@
   justify-content: space-between;
   align-items: center;
   background: #111;
-  padding: 12px 16px;
+  padding: 20px;
   color: #fff;
-  height: 50px;
+  height: 40px;
+  border-radius: 10px;
 }
 
 .navbar__brand a {

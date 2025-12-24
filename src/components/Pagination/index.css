@@ -24,3 +24,8 @@
   color: #ddd;
   font-size: 14px;
 }
+.pagination__page-number {
+  font-size: 18px;
+  font-family: 'Bree Serif';
+  margin: 0;
+}
